@@ -1,0 +1,36 @@
+<div *ngIf="data">
+	<div class="container">
+		<form class="flexbox">
+				<div class="subjects">
+					<!-- <select class="subjects" name="subjects" [(ngModel)]="this.selectedSubject" (ngModelChange)="getYears()">
+						<option [ngValue]="undefined" hidden disabled selected>Subjects</option>
+						<option *ngFor="let subject of data.subjects">{{ subject }}</option>
+					</select> -->
+					<ul (clickOutside)="close()">
+						<li (click)="toggleSubjects($event)" class="selected">
+							{{ selectedSubject }} 
+						</li>
+						<li (click)="toggleSubjects($event)" class="" *ngFor="let subject of data.subjects | except: selectedSubject">
+							{{ subject }}
+						</li>
+					</ul>
+			    </div>
+				<div class="toggle">
+					<button [class.enabled]="isHigherLevel" class="hl" (click)="toggleLevel($event)">HL</button>
+					<button [class.enabled]="!isHigherLevel" class="ol" (click)="toggleLevel($event)">OL</button>
+				</div>
+		</form>
+	</div>
+	<!-- <subjects 
+		*ngIf="!selectedSubject"
+		[data]="data"
+		(selectSubject)="selectSubject($event)"
+	></subjects>
+	<papers
+	*ngIf="selectedSubject && !selectedYear"
+	[data] = "data"
+	[selectedSubject]="selectedSubject"
+	[level]="level"
+	></papers> -->
+</div>
+

@@ -1,0 +1,25 @@
+
+<div class="container">
+	<div class="heading">
+		<div  class="subject">
+			{{ format(selectedSubject) }}
+
+		</div>
+	</div>
+	<div class="flexbox">
+		<div class="section" *ngFor="let year of years">
+			<div class="year">
+				{{ year }}
+			</div>
+			
+			<div class="papers" *ngFor="let paper of subject[year]">
+				<div class="paper">
+					<a  [attr.href]="paper[1]" target="_blank">{{ paper[0] }}</a>
+				</div>
+				<div class="solutions">
+					<a  [attr.href]="paper[3]" target="_blank">Solutions</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

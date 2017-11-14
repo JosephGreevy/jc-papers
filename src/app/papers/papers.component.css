@@ -1,0 +1,73 @@
+.container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	width: 100%;
+	padding: 0 10%;
+}
+.flexbox{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around
+}
+.section{
+	width: 100%;
+	padding: 1em 1.5em;
+	border-radius: 1em;
+	background-color: #f2f2f2;
+	margin: 1em 0;
+}
+.year{
+	text-align: center;
+	margin-bottom: .5em;
+	font-size: 2em;
+	border-bottom: 1px solid black;
+}
+.papers{
+	padding-bottom: .5em;
+	text-align: center;
+}
+a{
+	font-size: 1.25em;
+	padding: 0 .5em;
+	text-decoration: none;
+	color: black;
+}
+.papers div{
+	display: inline;
+	text-align: center;
+}
+.solutions a{
+	font-size: 1.1em;
+	font-weight: 400;
+}
+.heading{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.subject{
+	text-align: center;
+	font-size: 2em;
+	background-color: #f2f2f2;
+	border-radius: 1em;
+	padding: .2em 1em;
+}
+.subject i{
+	margin-right: .5em;
+}
+@media(min-width: 450px){
+	.section{
+		width: 80%;
+	}
+}
+@media(min-width: 650px){
+	.section{
+		width: 40%;
+	}
+}
+@media(min-width: 850px){
+	.section{
+		width: 30%;
+	}
+}
