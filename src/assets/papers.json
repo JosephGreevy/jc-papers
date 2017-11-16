@@ -9,6 +9,7 @@
     "French",
     "Spanish",
     "German",
+    "Business",
     "Religion",
     "CSPE"
   ],
@@ -239,7 +240,8 @@
   "english": {
     "years": [
       "2017",
-      "Samples"
+      "Sample 1",
+      "Sample 2"
     ],
     "hl": {
       "2017": [
@@ -250,11 +252,13 @@
           "../../assets/ActualPapers/English/hl/2017/Marking_Scheme.pdf"
         ]
       ],
-      "Samples": [
+      "Sample 1": [
         [
           "Sample 1",
           "../../assets/ActualPapers/English/hl/Samples/Sample_Paper_1.pdf"
-        ],
+        ]
+      ],
+      "Sample 2": [
         [
           "Sample 2",
           "../../assets/ActualPapers/English/hl/Samples/Sample_Paper_2.pdf"
@@ -972,113 +976,369 @@
       "2005": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2005/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2005/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2005/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2005/Marking_Scheme.pdf"
         ]
       ],
       "2006": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2006/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2006/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2006/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2006/Marking_Scheme.pdf"
         ]
       ],
       "2007": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2007/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2007/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2007/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2007/Marking_Scheme.pdf"
         ]
       ],
       "2008": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2008/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2008/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2008/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2008/Marking_Scheme.pdf"
         ]
       ],
       "2009": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2009/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2009/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2009/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2009/Marking_Scheme.pdf"
         ]
       ],
       "2010": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2010/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2010/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2010/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2010/Marking_Scheme.pdf"
         ]
       ],
       "2011": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2011/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2011/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2011/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2011/Marking_Scheme.pdf"
         ]
       ],
       "2012": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2012/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2012/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2012/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2012/Marking_Scheme.pdf"
         ]
       ],
       "2013": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2013/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2013/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2013/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2013/Marking_Scheme.pdf"
         ]
       ],
       "2014": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2014/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2014/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2014/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2014/Marking_Scheme.pdf"
         ]
       ],
       "2015": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2015/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2015/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2015/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2015/Marking_Scheme.pdf"
         ]
       ],
       "2016": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2016/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2016/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2016/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2016/Marking_Scheme.pdf"
         ]
       ],
       "2017": [
         [
           "Paper",
-          "../../assets/ActualPapers/Spanish/hl/2017/Paper.pdf",
+          "../../assets/ActualPapers/German/hl/2017/Paper.pdf",
           "Marking Scheme",
-          "../../assets/ActualPapers/Spanish/hl/2017/Marking_Scheme.pdf"
+          "../../assets/ActualPapers/German/hl/2017/Marking_Scheme.pdf"
+        ]
+      ]
+    },
+    "ol": {}
+  },
+  "business": {
+    "years": [
+      "2017",
+      "2016",
+      "2015",
+      "2014",
+      "2013",
+      "2012",
+      "2011",
+      "2010"
+      ],
+    "hl": {
+      "2010": [
+        [
+          "Short Questions",
+          "../../assets/ActualPapers/Business/hl/2010/Short_Questions.pdf",
+          "Short Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2010/Short_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Long Questions",
+          "../../assets/ActualPapers/Business/hl/2010/Long_Questions.pdf",
+          "Long Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2010/Long_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "../../assets/ActualPapers/Business/hl/2010/Paper_2.pdf",
+          "Paper 2 Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2010/Paper_2_Marking_Scheme.pdf"
+        ]
+      ],
+      "2011": [
+        [
+          "Short Questions",
+          "../../assets/ActualPapers/Business/hl/2011/Short_Questions.pdf",
+          "Short Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2011/Short_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Long Questions",
+          "../../assets/ActualPapers/Business/hl/2011/Long_Questions.pdf",
+          "Long Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2011/Long_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "../../assets/ActualPapers/Business/hl/2011/Paper_2.pdf",
+          "Paper 2 Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2011/Paper_2_Marking_Scheme.pdf"
+        ]
+      ],
+      "2012": [
+        [
+          "Short Questions",
+          "../../assets/ActualPapers/Business/hl/2012/Short_Questions.pdf",
+          "Short Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2012/Short_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Long Questions",
+          "../../assets/ActualPapers/Business/hl/2012/Long_Questions.pdf",
+          "Long Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2012/Long_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "../../assets/ActualPapers/Business/hl/2012/Paper_2.pdf",
+          "Paper 2 Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2012/Paper_2_Marking_Scheme.pdf"
+        ]
+      ],
+      "2013": [
+        [
+          "Short Questions",
+          "../../assets/ActualPapers/Business/hl/2013/Short_Questions.pdf",
+          "Short Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2013/Short_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Long Questions",
+          "../../assets/ActualPapers/Business/hl/2013/Long_Questions.pdf",
+          "Long Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2013/Long_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "../../assets/ActualPapers/Business/hl/2013/Paper_2.pdf",
+          "Paper 2 Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2013/Paper_2_Marking_Scheme.pdf"
+        ]
+      ],
+      "2014": [
+        [
+          "Short Questions",
+          "../../assets/ActualPapers/Business/hl/2014/Short_Questions.pdf",
+          "Short Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2014/Short_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Long Questions",
+          "../../assets/ActualPapers/Business/hl/2014/Long_Questions.pdf",
+          "Long Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2014/Long_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "../../assets/ActualPapers/Business/hl/2014/Paper_2.pdf",
+          "Paper 2 Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2014/Paper_2_Marking_Scheme.pdf"
+        ]
+      ],
+      "2015": [
+        [
+          "Short Questions",
+          "../../assets/ActualPapers/Business/hl/2015/Short_Questions.pdf",
+          "Short Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2015/Short_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Long Questions",
+          "../../assets/ActualPapers/Business/hl/2015/Long_Questions.pdf",
+          "Long Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2015/Long_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "../../assets/ActualPapers/Business/hl/2015/Paper_2.pdf",
+          "Paper 2 Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2015/Paper_2_Marking_Scheme.pdf"
+        ]
+      ],
+      "2016": [
+        [
+          "Short Questions",
+          "../../assets/ActualPapers/Business/hl/2016/Short_Questions.pdf",
+          "Short Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2016/Short_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Long Questions",
+          "../../assets/ActualPapers/Business/hl/2016/Long_Questions.pdf",
+          "Long Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2016/Long_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "../../assets/ActualPapers/Business/hl/2016/Paper_2.pdf",
+          "Paper 2 Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2016/Paper_2_Marking_Scheme.pdf"
+        ]
+      ],
+      "2017": [
+        [
+          "Short Questions",
+          "../../assets/ActualPapers/Business/hl/2017/Short_Questions.pdf",
+          "Short Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2017/Short_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Long Questions",
+          "../../assets/ActualPapers/Business/hl/2017/Long_Questions.pdf",
+          "Long Questions Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2017/Long_Questions_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "../../assets/ActualPapers/Business/hl/2017/Paper_2.pdf",
+          "Paper 2 Marking Scheme",
+          "../../assets/ActualPapers/Business/hl/2017/Paper_2_Marking_Scheme.pdf"
         ]
       ]
     },
     "ol": {}
   },
   "religion": {
-    "hl": {},
-    "ol": {}
+    "years": [
+      "2017",
+      "2016",
+      "2015",
+      "2014",
+      "2013",
+      "2012",
+      "2011",
+      "2010",
+      "2009",
+      "2008",
+      "2007",
+      "2006",
+      "2005"
+    ],
+    "hl": {
+      "2010": [
+        [
+          "Paper",
+          "../../assets/ActualPapers/Religion/hl/2010/Paper.pdf",
+          "Marking Scheme",
+          "../../assets/ActualPapers/Religion/hl/2010/Marking_Scheme.pdf"
+        ]
+      ],
+      "2011": [
+        [
+          "Paper",
+          "../../assets/ActualPapers/Religion/hl/2011/Paper.pdf",
+          "Marking Scheme",
+          "../../assets/ActualPapers/Religion/hl/2011/Marking_Scheme.pdf"
+        ]
+      ],
+      "2012": [
+        [
+          "Paper",
+          "../../assets/ActualPapers/Religion/hl/2012/Paper.pdf",
+          "Marking Scheme",
+          "../../assets/ActualPapers/Religion/hl/2012/Marking_Scheme.pdf"
+        ]
+      ],
+      "2013": [
+        [
+          "Paper",
+          "../../assets/ActualPapers/Religion/hl/2013/Paper.pdf",
+          "Marking Scheme",
+          "../../assets/ActualPapers/Religion/hl/2013/Marking_Scheme.pdf"
+        ]
+      ],
+      "2014": [
+        [
+          "Paper",
+          "../../assets/ActualPapers/Religion/hl/2014/Paper.pdf",
+          "Marking Scheme",
+          "../../assets/ActualPapers/Religion/hl/2014/Marking_Scheme.pdf"
+        ]
+      ],
+      "2015": [
+        [
+          "Paper",
+          "../../assets/ActualPapers/Religion/hl/2015/Paper.pdf",
+          "Marking Scheme",
+          "../../assets/ActualPapers/Religion/hl/2015/Marking_Scheme.pdf"
+        ]
+      ],
+      "2016": [
+        [
+          "Paper",
+          "../../assets/ActualPapers/Religion/hl/2016/Paper.pdf",
+          "Marking Scheme",
+          "../../assets/ActualPapers/Religion/hl/2016/Marking_Scheme.pdf"
+        ]
+      ],
+      "2017": [
+        [
+          "Paper",
+          "../../assets/ActualPapers/Religion/hl/2017/Paper.pdf",
+          "Marking Scheme",
+          "../../assets/ActualPapers/Religion/hl/2017/Marking_Scheme.pdf"
+        ]
+      ]
+    
+  },
+  "ol": {}
   },
   "CSPE": {
     "hl": {},
