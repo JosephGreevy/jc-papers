@@ -19,18 +19,11 @@
 					<button [class.enabled]="isHigherLevel" class="hl" (click)="toggleLevel($event)">HL</button>
 					<button [class.enabled]="!isHigherLevel" class="ol" (click)="toggleLevel($event)">OL</button>
 				</div>
+				<div class="feature">
+					<button (click)="changeFeature($event)" [class.enabled]="feature == 'papers'">Papers</button>
+					<button (click)="changeFeature($event)" [class.enabled]="feature == 'analysis'">Analysis</button>
+				</div>
 		</form>
 	</div>
-	<!-- <subjects 
-		*ngIf="!selectedSubject"
-		[data]="data"
-		(selectSubject)="selectSubject($event)"
-	></subjects>
-	<papers
-	*ngIf="selectedSubject && !selectedYear"
-	[data] = "data"
-	[selectedSubject]="selectedSubject"
-	[level]="level"
-	></papers> -->
 </div>
 

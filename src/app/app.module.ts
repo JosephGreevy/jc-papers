@@ -15,6 +15,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ClickOutsideDirective } from './click-outside.directive';
 import { ExceptPipe } from './except.pipe';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { AnalysisComponent } from './analysis/analysis.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     NavbarComponent,
     ClickOutsideDirective,
     ExceptPipe,
-    NotFoundComponent
+    NotFoundComponent,
+    AnalysisComponent
   ],
   imports: [
     BrowserModule,

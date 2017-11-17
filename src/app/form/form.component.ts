@@ -16,9 +16,10 @@ export class FormComponent implements OnInit {
 	selectedYear;
 	_years;
 	papers;
-	isHigherLevel = true;
-	level = "hl";
+	isHigherLevel;
+	level;
   subjectChanged : boolean;
+  feature : string;
 
   constructor(private dataService : PapersService, private subjectService: SubjectService, private router: Router) { }
 
@@ -29,23 +30,21 @@ export class FormComponent implements OnInit {
     this.subjectService.selectedSubject.subscribe(name => {
       this.selectedSubject = name;
     })
+    this.subjectService.level.subscribe(lvl => {
+      this.level = lvl;
+      if(this.level == "hl"){
+        this.isHigherLevel = true;
+      }else{
+        this.isHigherLevel = false;
+      }
+    })
+    this.subjectService.feature.subscribe(feature => {
+      this.feature = feature;
+    })
   }
   toggleSubjects(event){
     let list = document.querySelector(".subjects ul");
     if(event.target.classList.contains("expanded")){
-      /*let sel = document.querySelector(".selected");
-      if(sel.classList.contains("default")){
-        sel.remove();
-      }else{
-        sel.classList.remove("selected");
-        sel.classList.remove("select_expanded");
-      }
-      list.insertBefore(event.target, list.firstChild);
-      this.close();
-      this.selectedSubject = event.target.innerText;
-      this.getYears();
-      event.target.classList.add("selected");
-      console.log("Trying");*/
       this.selectedSubject = event.target.innerText;
       this.subjectService.changeSubject(this.selectedSubject);
       this.router.navigate(['/subjects', this.level, this.selectedSubject]);
@@ -57,24 +56,6 @@ export class FormComponent implements OnInit {
       }
     }
   }
-  /*selectSubject(name){
-    let list = document.querySelector(".subjects ul");
-    let items = document.querySelectorAll(".subjects ul li");
-    let element;
-    this.selectedSubject = name;
-    for(let i = 0; i < items.length; i++){
-      if(items[i].innerHTML == name){
-        let sel = document.querySelector(".selected");
-        if(sel.classList.contains("default")){
-          sel.remove();
-        }else{
-          sel.classList.remove("selected");
-          sel.classList.remove("select_expanded");
-        }
-        items[i].classList.add("selected");
-        list.insertBefore(items[i], list.firstChild);
-      }
-    }}*/
   toggleLevel(event){
   	this.isHigherLevel = !this.isHigherLevel;
   	if(this.isHigherLevel){
@@ -84,12 +65,19 @@ export class FormComponent implements OnInit {
   	}
     this.subjectService.changeLevel(this.level);
     if(this.selectedSubject != "Subjects"){
-      this.router.navigate(['/subjects', this.level, this.selectedSubject]);
+      this.router.navigate(['/subjects', this.level, this.selectedSubject, this.feature]);
     }
   }
-  /*getYears(){
-    console.log(this.data[this.selectedSubject]);
-  	this._years = this.data[this.selectedSubject].years;}*/
+  changeFeature(event){
+    let temp = event.target.innerText.toLowerCase();
+    if(this.feature != temp){
+      this.feature = temp;
+      this.subjectService.changeFeature(this.feature);
+      if(this.selectedSubject != "Subjects"){
+        this.router.navigate(['/subjects', this.level, this.selectedSubject, this.feature]);
+      }
+    }
+  }
   getPapers(){
   	this.papers = this.data[this.selectedSubject][this.level];
   }

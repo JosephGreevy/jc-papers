@@ -44,7 +44,8 @@ export class PapersComponent implements OnInit {
       }
       this.years = this.data[this.selectedSubject.toLowerCase()].years;
       this.subject = this.data[this.selectedSubject.toLowerCase()][this.level];
-      this.subjectService.changeSubject(this.format(this.selectedSubject));
+      this.subjectService.changeSubject(this.selectedSubject);
+      this.subjectService.changeLevel(this.level);
     });
   }
   ngOnInit() {
