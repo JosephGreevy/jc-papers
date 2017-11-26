@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PapersService } from './papers.service';
 import { SubjectService } from './subject.service';
+import { AnalysisService } from './analysis.service';
 import { FormComponent } from './form/form.component';
 import { SubjectsComponent } from './subjects/subjects.component';
 import { PapersComponent } from './papers/papers.component';
@@ -37,7 +38,8 @@ import { AnalysisComponent } from './analysis/analysis.component';
   ],
   providers: [
   	PapersService,
-    SubjectService
+    SubjectService,
+    AnalysisService
   ],
   bootstrap: [AppComponent]
 })

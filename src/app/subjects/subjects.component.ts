@@ -15,6 +15,7 @@ export class SubjectsComponent implements OnInit {
   data;
   selectedSubject;
   level;
+  feature;
 
   constructor(private dataService: PapersService, private subjectService: SubjectService, private router : Router) { }
 
@@ -28,12 +29,15 @@ export class SubjectsComponent implements OnInit {
     this.subjectService.level.subscribe(level => {
       this.level = level;
     });
+    this.subjectService.feature.subscribe(feature => {
+      this.feature = feature;
+    });
   }
   changeSubject(name: string){
     this.subjectService.changeSubject(name);
     console.log(this.level);
     console.log(this.selectedSubject);
-    this.router.navigate(['/subjects', this.level, this.selectedSubject.toLowerCase()]);
+    this.router.navigate(['/subjects', this.level, this.selectedSubject.toLowerCase(), this.feature]);
   }
 
 }

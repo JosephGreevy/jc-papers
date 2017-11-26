@@ -45,9 +45,9 @@ export class FormComponent implements OnInit {
   toggleSubjects(event){
     let list = document.querySelector(".subjects ul");
     if(event.target.classList.contains("expanded")){
-      this.selectedSubject = event.target.innerText;
+      this.selectedSubject = event.target.innerText.toLowerCase();
       this.subjectService.changeSubject(this.selectedSubject);
-      this.router.navigate(['/subjects', this.level, this.selectedSubject]);
+      this.router.navigate(['/subjects', this.level, this.selectedSubject, this.feature]);
     }else{
       if(event.target.classList.contains("select_expanded")){
         this.close();
@@ -102,6 +102,9 @@ export class FormComponent implements OnInit {
     }
     let selected = document.querySelector(".selected");
     selected.classList.add("select_expanded");
+  }
+  format(string){
+    return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
 }
