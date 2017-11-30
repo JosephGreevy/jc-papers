@@ -11,8 +11,12 @@
 		</div> 
 		<ul>
 			<li *ngFor="let question of questions">
-				<h2>{{ question.name }}</h2>
-				<img [src]="question.src">
+				<div class="banner">
+					<h2>{{ question.name }}</h2>
+					<button (click)="toggleDisplay(question)">Marking Scheme</button>
+				</div>
+				<img *ngIf="question.displayingQuestion" [src]="question.src">
+				<img *ngIf="!question.displayingQuestion" [src]="question.ms">
 			</li>
 		</ul>
 	</div>

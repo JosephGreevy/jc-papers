@@ -18,6 +18,7 @@ export class AnalysisComponent implements OnInit {
   analysis;
   categories;
   questions = [];
+  showQuestion = [];
 
   constructor(private route : ActivatedRoute, 
               private router : Router, 
@@ -48,10 +49,17 @@ export class AnalysisComponent implements OnInit {
   updateQuestions(cat){
     let arr = this.analysis;
     this.questions = [];
+    this.showQuestion = [];
     for(let i = 0; i < arr.length; i++){
       if(arr[i].tags.indexOf(cat) > -1){
         this.questions.push(arr[i]);
       }
     }
+    for(let i = 0; i < this.questions.length; i++){
+      this.questions[i].displayingQuestion = true;
+    }
+  }
+  toggleDisplay(question){
+    question.displayingQuestion = !question.displayingQuestion;
   }
 }

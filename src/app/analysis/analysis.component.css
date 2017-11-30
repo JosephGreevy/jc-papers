@@ -2,7 +2,8 @@
 	
 }
 h2{
-	text-align: center;
+	padding-left: 2em;
+	padding-top: .5em;
 	color: black;
 	margin-bottom: .75em;
 	text-decoration: underline;
@@ -18,6 +19,22 @@ h3{
 	padding: 1em;
 	text-align: center;
 	margin-right: 0;
+}
+.banner{
+	display: flex;
+	justify-content: space-around;
+}
+.banner button{
+	padding: .4em.8em;
+	border: none;
+	outline: none;
+	height: 3em;
+	line-height: 1.25em;
+	font-size: 1.25em;
+	background-color: #545454;
+	color: white;
+	cursor: pointer;
+	align-self: center;
 }
 @media(min-width: 400px){
 	.container{
