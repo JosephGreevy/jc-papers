@@ -9,7 +9,8 @@ const appRoutes: Routes = [
   { path: 'subjects', component: SubjectsComponent },
   { path: 'subjects/:level/:subject',  component: PapersComponent },
   { path: 'notFound',   component: NotFoundComponent },
-  { path: '',   redirectTo: '/subjects', pathMatch: 'full' }
+  { path: '',   redirectTo: '/subjects', pathMatch: 'full' },
+  { path: '**',   redirectTo: '/notFound' }
   
 ];
  
