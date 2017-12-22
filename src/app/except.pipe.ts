@@ -9,7 +9,7 @@ export class ExceptPipe implements PipeTransform {
 
   transform(subjects: string[], selected: string): any {
     return subjects.filter(subject => {
-    	return subject != selected;
+    	return subject.toLowerCase() != selected.toLowerCase();
     });
   }
 

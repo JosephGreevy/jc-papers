@@ -7,7 +7,6 @@ form{
 .container{
 	width: 100%;
 	margin: 1em 0;
-
 }
 ul{
 	display: flex;
@@ -43,7 +42,7 @@ ul li.select_expanded{
 	padding: .4em 1em;
 
 }
-.toggle{
+.toggle, .feature{
 	display: flex;
 	height: 2em;
 	margin: 1em 0;
@@ -61,6 +60,9 @@ button{
 	background-color: white;
 	cursor: pointer;
 }
+.feature button {
+	width: 5em;
+}
 button:nth-child(1){
 	border-bottom-left-radius: 1em;
 	border-top-left-radius: 1em;
@@ -70,7 +72,8 @@ button:nth-child(2){
 	border-top-right-radius: 1em;
 }
 .enabled{
-	background-color: #545454;
+	/* background-color: #D65E3E; /* Toggled Button */
+	background-color: #E54E95;
 	color: white;
 	font-weight: bold;
 }
@@ -138,7 +141,7 @@ button:nth-child(2){
 		border-bottom-right-radius: 1em;
 	}
 	
-	.toggle{
+	.toggle, .feature{
 		display: flex;
 		height: 2em;
 		margin: 0;
@@ -152,7 +155,6 @@ button:nth-child(2){
 		border-top-right-radius: 1em;
 	}
 	.enabled{
-		background-color: #545454;
 		color: white;
 		font-weight: bold;
 	}

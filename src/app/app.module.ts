@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PapersService } from './papers.service';
 import { SubjectService } from './subject.service';
+import { AnalysisService } from './analysis.service';
 import { FormComponent } from './form/form.component';
 import { SubjectsComponent } from './subjects/subjects.component';
 import { PapersComponent } from './papers/papers.component';
@@ -15,6 +16,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ClickOutsideDirective } from './click-outside.directive';
 import { ExceptPipe } from './except.pipe';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { AnalysisComponent } from './analysis/analysis.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     NavbarComponent,
     ClickOutsideDirective,
     ExceptPipe,
-    NotFoundComponent
+    NotFoundComponent,
+    AnalysisComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
   ],
   providers: [
   	PapersService,
-    SubjectService
+    SubjectService,
+    AnalysisService
   ],
   bootstrap: [AppComponent]
 })

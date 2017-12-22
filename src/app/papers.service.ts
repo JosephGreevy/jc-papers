@@ -9,7 +9,6 @@ export class PapersService {
   constructor(private http: HttpClient) { }
 
   getData(){
-  	console.log("Getting Data");
   	return this.http.get('../assets/papers.json').map(result =>{
   		return result;
   	});

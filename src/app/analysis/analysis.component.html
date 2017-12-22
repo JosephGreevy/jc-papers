@@ -1,0 +1,22 @@
+<div class="container">	
+	<div class="categories">
+		<h3>Categories</h3>
+		<ul>
+			<li *ngFor="let cat of categories" (click)="updateQuestions(cat)">{{ cat }}</li>
+		</ul>
+	</div>
+	<div class="right" *ngIf="data"> 
+		<div *ngIf="questions.length < 1" [innerHTML]="data.text" class="details">
+		</div> 
+		<ul>
+			<li *ngFor="let question of questions">
+				<div class="banner">
+					<h2>{{ question.name }}</h2>
+					<button (click)="toggleDisplay(question)">Marking Scheme</button>
+				</div>
+				<img *ngIf="question.displayingQuestion" [src]="question.src">
+				<img *ngIf="!question.displayingQuestion" [src]="question.ms">
+			</li>
+		</ul>
+	</div>
+</div>
