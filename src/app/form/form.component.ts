@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { PapersService } from '../papers.service';
 import { SubjectService } from '../subject.service';
 
@@ -21,7 +22,11 @@ export class FormComponent implements OnInit {
   subjectChanged : boolean;
   feature : string;
 
-  constructor(private dataService : PapersService, private subjectService: SubjectService, private router: Router) { }
+  constructor(private dataService : PapersService, 
+              private subjectService: SubjectService, 
+              private router: Router) {
+                 
+               }
 
   ngOnInit() {
   	this.dataService.getData().subscribe(result => {
@@ -38,8 +43,9 @@ export class FormComponent implements OnInit {
         this.isHigherLevel = false;
       }
     })
-    this.subjectService.feature.subscribe(feature => {
-      this.feature = feature;
+    this.subjectService.feature.subscribe(f => {
+      this.feature = f;
+      console.log(f);
     })
   }
   toggleSubjects(event){

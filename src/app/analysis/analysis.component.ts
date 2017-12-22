@@ -15,6 +15,7 @@ export class AnalysisComponent implements OnInit {
   selectedSubject = "unavailable";
   level = "unavailable";	
   feature = "analysis";
+  data;
   analysis;
   categories;
   questions = [];
@@ -39,6 +40,7 @@ export class AnalysisComponent implements OnInit {
     this.subjectService.changeFeature(this.feature);
     this.dataService.getData().subscribe(data => {
       if(data[this.selectedSubject]){
+        this.data = data[this.selectedSubject];
         this.analysis = data[this.selectedSubject][this.level];
         this.categories = data[this.selectedSubject].categories;
       }else{

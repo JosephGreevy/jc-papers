@@ -5,9 +5,8 @@
 			<li *ngFor="let cat of categories" (click)="updateQuestions(cat)">{{ cat }}</li>
 		</ul>
 	</div>
-	<div class="right"> 
-		<div *ngIf="questions.length < 1" class="details">
-			Blah Blah Blah I am great lots of cool text
+	<div class="right" *ngIf="data"> 
+		<div *ngIf="questions.length < 1" [innerHTML]="data.text" class="details">
 		</div> 
 		<ul>
 			<li *ngFor="let question of questions">
