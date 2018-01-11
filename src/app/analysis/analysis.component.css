@@ -1,17 +1,44 @@
+.message{
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+	padding: .75rem 1.25rem;
+	border-radius: .25rem;
+}
+.success{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.error{
+	color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
 .container{
 	
 }
+h1{
+	font-size: 1.75em;
+	
+}
 h2{
-	padding-left: 2em;
-	padding-top: .5em;
-	color: black;
-	margin-bottom: .75em;
-	text-decoration: underline;
-	font-size: 2em;
+	text-align: center;
+	color: #202020;
+	margin-bottom: .2em;
+	font-size: 1.25em;
+}
+.banner h2{
+	font-size: 1.75em;
 }
 h3{
 	text-align: center;
 	padding: .5em .5em;
+}
+h4{
+	text-align: center;
+	color: #202020;
+	font-size: 1.1em;
 }
 .details{
 	background-color: #f2f2f2;
@@ -22,19 +49,45 @@ h3{
 }
 .banner{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	margin-bottom: 1em;
 }
 .banner button{
 	padding: .4em.8em;
 	border: none;
 	outline: none;
 	height: 3em;
-	line-height: 1.25em;
-	font-size: 1.25em;
+	line-height: 2.2em;
+	font-size: 1;
 	background-color: #545454;
 	color: white;
 	cursor: pointer;
 	align-self: center;
+}
+hr{
+	height: 3px;
+	background-color: #202020;
+	width: 80%;
+	margin: .5em 0 1em 10%;
+}
+.btns{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.btns a{
+	border: 1px solid black;
+	background-color: inherit;
+	color: black;
+	padding: 10px 30px;
+	font-size: 1.4em;
+	
+}
+.btns a:hover{
+	background-color: #202020;
+	color: white;
 }
 @media(min-width: 400px){
 	.container{
@@ -76,5 +129,11 @@ h3{
 	}
 	.right ul li:not(:first-child){
 		margin-top: 3em;
+	}
+	.btns{
+		width: 50%;
+		margin-left: 25%;
+	}
+	.btns a{
 	}
 }

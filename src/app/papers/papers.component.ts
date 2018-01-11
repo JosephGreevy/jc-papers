@@ -1,7 +1,8 @@
-import { Component, OnInit,  } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { PapersService } from '../papers.service';
 import { SubjectService } from '../subject.service';
+import { FlashService } from '../flash.service';
 import 'rxjs/add/operator/switchMap';
 
 @Component({
@@ -9,20 +10,23 @@ import 'rxjs/add/operator/switchMap';
   templateUrl: './papers.component.html',
   styleUrls: ['./papers.component.css']
 })
-export class PapersComponent implements OnInit {
+export class PapersComponent implements OnInit, OnDestroy {
   data;
   selectedSubject;
   level;
   years;
   subject;
   feature;
+  message;
+  success;
 
 
   constructor(
     private route: ActivatedRoute,
     private router: Router,
     private service: PapersService,
-    private subjectService: SubjectService
+    private subjectService: SubjectService,
+    private flashService : FlashService
   ) { }
 
   format(string){
@@ -58,7 +62,16 @@ export class PapersComponent implements OnInit {
       this.level = params.get('level');
       this.update();
     }); 
+    this.flashService.success.subscribe(success => {
+      this.success = success;
+    });
+    this.flashService.message.subscribe(message => {
+      this.message = message;
+    });
     
+  }
+  ngOnDestroy(){
+    this.flashService.changeMessage("");
   }
 
 }

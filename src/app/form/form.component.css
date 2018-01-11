@@ -1,3 +1,5 @@
+/* Grey #545152 */
+/* Nearly White */
 form{
 	width: 100%;
 	display: flex;
@@ -29,7 +31,8 @@ li{
 	height: 2em;
 	line-height: 2em;
 	cursor: pointer;
-	background-color: #f2f2f2;
+	background-color: #F5F5F5; /* Dropdown Colour */
+	color: black;
 	font-weight: bold;
 }
 ul li.select_expanded{
@@ -37,7 +40,8 @@ ul li.select_expanded{
 }
 .expanded{
 	display: block;
-	background-color: #d8d4d4;
+	background-color: #F5F5F5; /* Dropdown Colour */
+	color: black;
 	border-bottom: 1px solid #000;
 	padding: .4em 1em;
 
@@ -57,7 +61,7 @@ button{
 	height: 2em;
 	color: black;
 	font-size: 1.25em;
-	background-color: white;
+	background-color: #F5F5F5;
 	cursor: pointer;
 }
 .feature button {
@@ -73,7 +77,7 @@ button:nth-child(2){
 }
 .enabled{
 	/* background-color: #D65E3E; /* Toggled Button */
-	background-color: #E54E95;
+	background-color: #053805;
 	color: white;
 	font-weight: bold;
 }
@@ -119,7 +123,6 @@ button:nth-child(2){
   		height: 2em;
   		line-height: 2em;
 		cursor: pointer;
-		background-color: #f2f2f2;
 		font-weight: bold;
 		order: 0;
 	}
@@ -129,7 +132,6 @@ button:nth-child(2){
 	}
 	.expanded{
 		display: block;
-		background-color: #f2f2f2;
 		border: 1px solid #7CBA55;
 		padding: .4em 1em;
 	}

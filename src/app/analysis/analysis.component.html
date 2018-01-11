@@ -1,3 +1,4 @@
+<div  class="message" [ngClass]="{'success': success, 'error': success === false}" *ngIf="message !== '' ">{{ message }}</div>
 <div class="container">	
 	<div class="categories">
 		<h3>Categories</h3>
@@ -6,9 +7,19 @@
 		</ul>
 	</div>
 	<div class="right" *ngIf="data"> 
-		<div *ngIf="questions.length < 1" [innerHTML]="data.text" class="details">
+		<div *ngIf="questions.length < 1 && loggedIn" [innerHTML]="data.text" class="details">
 		</div> 
-		<ul>
+		<div *ngIf="!loggedIn" class="details"> 
+			<h1>Access Denied</h1>
+			<hr>
+			<h2>You need to login or register to access Exam Paper Analysis</h2>
+			<h4>Exam Paper Analysis is free for the moment so you might as well try it out</h4>
+			<div class="btns">
+				<a routerLink="/subjects">Papers</a>
+				<a routerLink="/registration">SignUp</a>
+			</div>
+		</div>
+		<ul *ngIf="loggedIn">
 			<li *ngFor="let question of questions">
 				<div class="banner">
 					<h2>{{ question.name }}</h2>
@@ -18,5 +29,6 @@
 				<img *ngIf="!question.displayingQuestion" [src]="question.ms">
 			</li>
 		</ul>
+
 	</div>
 </div>

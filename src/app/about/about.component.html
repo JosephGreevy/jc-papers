@@ -1,0 +1,29 @@
+<div  class="message" [ngClass]="{'success': success, 'error': success === false}" *ngIf="message !== '' ">{{ message }}</div>
+<div class="container">
+	<div class="intro">
+
+		<!-- <div class="left">
+			<h1>JC Papers</h1>
+			<h4>Study Less, Learn More</h4>
+			<p>JC-Papers is the easiest way to access Junior Cert Papers. We also provide free exam paper analysis. The site is still in progress but it will undoubtedly help you achieve better results. So why not register your free account today or even just browse the past exam papers now. No signup needed</p>
+			<div class="btns">
+				<a routerLink="/subjects">Papers</a>
+				<a routerLink="/registration">SignUp</a>
+			</div>
+		</div> -->
+		<div class="left">
+			<i class="fa fa-graduation-cap icon fa-5x" aria-hidden="true"></i>
+			<h1>JC Papers</h1>
+
+			<h4>Study Less, Learn More</h4>
+		</div>
+		<div class="right">
+			<p>JC-Papers is the easiest way to access Junior Cert Papers.<br><br></p>
+			<p> We also provide <strong>free exam paper analysis.</strong> The site is still in progress but it will undoubtedly help you achieve <strong>better results.</strong> So why not register your free account today or even just browse the past exam papers now. No signup needed</p>
+			<div class="btns">
+				<a routerLink="/subjects">Papers</a>
+				<a routerLink="/registration">SignUp</a>
+			</div>
+		</div>
+	</div>
+</div>

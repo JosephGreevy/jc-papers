@@ -1,0 +1,92 @@
+.message{
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+	padding: .75rem 1.25rem;
+	border-radius: .25rem;
+}
+.success{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.error{
+	color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.intro{
+	width: 100%;
+	margin: 0;
+	color: #fff;
+	background-color: #101010;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+h1{
+	text-align: center;
+	color: #202020;
+	font-weight: bold;
+	/*background-color: #378800;*/
+	margin-bottom: 20px;
+	color: #fff;
+	/*width: 30%;
+	margin-left: 35%;*/
+	font-size: 3em;
+	font-family: 'Roboto', sans-serif;
+}
+.left{
+	width: 40%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.right{
+	flex-basis: 60%;
+	padding: 50px 40px 30px 40px;
+}
+.icon{
+	color: white;
+	margin-bottom: 20px; 
+ }
+h4{
+	font-size: 1.75em;
+	font-family: 'Bellefair', serif;
+	margin-bottom: 10px;
+	text-align: center;
+}
+p{
+	font-size: 1.4em;
+	color: #9A9A9A;
+	font-family: 'Roboto', sans-serif;
+}
+p:first-child{
+	text-align: center;
+}
+.btns{
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.btns a{
+	background-color: #053805;
+	padding: 10px 25px;
+	font-size: 1.5em;
+	color: white;
+}
+.btns a:hover{
+	font-weight: bold;
+}
+@media(min-width: 600px){
+	.intro{
+		margin-top: 76px;
+		width: 70%;
+		margin-left: 15%;
+	}
+}

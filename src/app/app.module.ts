@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -17,7 +17,11 @@ import { ClickOutsideDirective } from './click-outside.directive';
 import { ExceptPipe } from './except.pipe';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { AnalysisComponent } from './analysis/analysis.component';
-
+import { RegistrationComponent } from './registration/registration.component';
+import { LoginComponent } from './login/login.component';
+import { CurrentUserService } from './current-user.service';
+import { FlashService } from './flash.service';
+import { AboutComponent } from './about/about.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,18 +32,24 @@ import { AnalysisComponent } from './analysis/analysis.component';
     ClickOutsideDirective,
     ExceptPipe,
     NotFoundComponent,
-    AnalysisComponent
+    AnalysisComponent,
+    RegistrationComponent,
+    LoginComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [
   	PapersService,
     SubjectService,
-    AnalysisService
+    AnalysisService,
+    CurrentUserService,
+    FlashService
   ],
   bootstrap: [AppComponent]
 })

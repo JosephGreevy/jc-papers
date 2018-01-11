@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { AnalysisService } from '../analysis.service';
 import { SubjectService } from '../subject.service';
+import { CurrentUserService } from '../current-user.service';
+import { FlashService } from '../flash.service';
 
 import 'rxjs/add/operator/switchMap';
 
@@ -11,7 +13,7 @@ import 'rxjs/add/operator/switchMap';
   templateUrl: './analysis.component.html',
   styleUrls: ['./analysis.component.css']
 })
-export class AnalysisComponent implements OnInit {
+export class AnalysisComponent implements OnInit, OnDestroy {
   selectedSubject = "unavailable";
   level = "unavailable";	
   feature = "analysis";
@@ -20,11 +22,16 @@ export class AnalysisComponent implements OnInit {
   categories;
   questions = [];
   showQuestion = [];
+  loggedIn;
+  message;
+  success;
 
   constructor(private route : ActivatedRoute, 
               private router : Router, 
               private dataService : AnalysisService, 
-              private subjectService : SubjectService) { }
+              private subjectService : SubjectService,
+              private userService : CurrentUserService,
+              private flashService : FlashService) { }
 
   ngOnInit() {
   	this.route.paramMap.subscribe((params: ParamMap) =>{
@@ -32,7 +39,13 @@ export class AnalysisComponent implements OnInit {
       this.level = params.get('level').toLowerCase();
       this.fetch();
     }); 
-
+    this.flashService.success.subscribe(success => {
+      this.success = success;
+    });
+    this.flashService.message.subscribe(message => {
+      this.message = message;
+    });
+    this.isLoggedIn();
   }
   fetch(){
     this.subjectService.changeLevel(this.level);
@@ -63,5 +76,26 @@ export class AnalysisComponent implements OnInit {
   }
   toggleDisplay(question){
     question.displayingQuestion = !question.displayingQuestion;
+  }
+  isLoggedIn(){
+    this.userService.getCurrentUser().subscribe(
+      res => {
+        if(this.isEmpty(res)){
+          this.loggedIn = false;
+        }else{
+          this.loggedIn = true;
+        }
+      }
+    );
+  }
+  isEmpty(obj){
+    for(var key in obj) {
+        if(obj.hasOwnProperty(key))
+            return false;
+    }
+    return true;
+  }
+  ngOnDestroy(){
+    this.flashService.changeMessage("");
   }
 }

@@ -1,0 +1,24 @@
+<div  class="message" [ngClass]="{'success': success, 'error': success === false}" *ngIf="message !== '' ">{{ message }}</div>
+<div class="container">
+	<div class="content">
+		<div class="title">Login</div>
+		<div class="forms">
+			<a href="/auth/facebook" class="fb">
+				<img src="../../assets/facebook.png"/>
+				Sign Up with Facebook
+			</a>
+			<div class="or">OR</div>
+			<form ngForm (ngSubmit)="login(f.value)" #f="ngForm">
+			    <div>
+			        <input placeholder="Username or Email" type="text" name="username" id="username" required ngModel/>
+			    </div>
+			    <div>
+			        <input placeholder="Password" type="password" name="password" id="password" required ngModel/>
+			    </div>
+			    <div>
+			        <button id="submit" type="submit">Login</button>
+			    </div>
+			</form>
+		</div>
+	</div>
+</div>

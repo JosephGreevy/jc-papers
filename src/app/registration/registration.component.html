@@ -1,0 +1,68 @@
+<div  class="message" [ngClass]="{'success': success, 'message-error': success === false}" *ngIf="message !== '' ">{{ message }}</div>
+<div class="container">
+	<div class="content">
+		<div class="title">Registration</div>
+		<div class="forms">
+			<a href="/auth/facebook" class="fb">
+				<img src="../../assets/facebook.png"/>
+				Sign Up with Facebook
+			</a>
+			<div class="or">OR</div>
+			<form ngForm (ngSubmit)="register(f.value)" #f="ngForm">
+			    <div class="input-group">
+			        <input placeholder="Username" type="text" name="username" id="username" #username="ngModel"
+			         required minlength="4" maxlength="30" ngModel (ngModelChange)="validateUsername($event)" pattern="^[a-zA-Z0-9_.-]*$"/>
+			        <div class="error" *ngIf="username.invalid && (username.dirty || username.touched)">
+				        <p *ngIf="username.errors.required">Username is required</p>
+				        <p *ngIf="username.errors.minlength">
+				        	Your username must be at least 4 characters long. 
+				        </p>
+				        <p *ngIf="username.errors.maxlength">
+				        	Your username cannot be more than 30 characters long. 
+				        </p>
+				        <p *ngIf="username.errors.pattern">Only letters, numbers and certain characters such as ".", "-" and "_" are allowed.
+				        </p>
+				    </div>
+				    <!-- <div class="error">
+				    	<p></p>
+				    </div> -->
+			    </div>
+			    <div>
+			        <input placeholder="Email" type="email" name="email" id="email" #email="ngModel" 
+			        required ngModel (ngModelChange)="validateEmail($event)" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" />
+			        <div class="error" *ngIf="email.invalid && (email.dirty || email.touched)">
+				        <p *ngIf="email.errors.required">An Email is required</p>
+				        <p *ngIf="email.errors.pattern">This is not a valid email</p>
+				    </div>
+				    <!-- <div class="error">
+				    	<p></p>
+				    </div> -->
+			    </div>
+			    <div>
+			        <input placeholder="School Name" type="school" name="school" id="school" required ngModel/>
+			    </div>
+			    <div>
+			        <input placeholder="Password" type="password" name="password" id="password" #password="ngModel"
+			        required minlength="5" maxlength="20" ngModel/>
+			        <div class="error" *ngIf="password.invalid && (password.dirty || password.touched)">
+				        <p *ngIf="password.errors.required">A Password is required</p>
+				        <p *ngIf="password.errors.minlength">
+				        	Your password must be at least 5 characters long. 
+				        </p>
+				        <p *ngIf="password.errors.maxlength">
+				        	Your username cannot be more than 20 characters long. 
+				        </p>
+				    </div>
+				    <!-- <div class="error">
+				    	<p></p>
+				    </div> -->
+			    </div>
+			    <div>
+			        <button [disabled]="!isValid(f)" [ngClass]="{disabled : !isValid(f), enabled : isValid(f)}" id="submit" type="submit">
+			        	Register
+			    	</button>
+			    </div>
+			</form>
+		</div>
+	</div>
+</div>

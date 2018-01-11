@@ -1,84 +1,85 @@
+<div  class="message" [ngClass]="{'success': success, 'error': success === false}" *ngIf="message !== '' ">{{ message }}</div>
 <div class="wrapper">
 	<!-- <div class="container"> -->
 		<a (click)="changeSubject('Maths')" class="subject">
-			<div class="icon">
-				<i class="fa fa-calculator fa-1x" aria-hidden="true"></i>
+			<div class="">
+				<img src="../../assets/calculator.png"/>
 			</div>	
-			Maths
+			<div class="text">Maths</div>
 		</a>
 		<a class="subject" (click)="changeSubject('Irish')">
-			<div class="icon">
-				<img class="img" src="http://icons.veryicon.com/png/System/Windows%208/Music%20Harp.png">
+			<div class="">
+				<img class="" src="../../assets/shamrock.png">
 			</div>
-			Irish
+			<div class="text">Irish</div>
 		</a>
 		<a class="subject" (click)="changeSubject('English')">
-			<div class="icon">
-				<i class="fa fa-book fa-1x" aria-hidden="true"></i>
+			<div class="">
+				<i class="fa fa-book fa-2x" aria-hidden="true"></i>
 			</div>	
 			English
 		</a>
 <!-- 	</div>
 	<div class="container"> -->
 		<a class="subject" (click) = "changeSubject('Science')">
-			<div class="icon">
-				<i class="fa fa-flask fa-1x" aria-hidden="true"></i>
+			<div class="">
+				<i class="fa fa-flask fa-2x" aria-hidden="true"></i>
 			</div>	
 			Science
 		</a>
 		<a class="subject" (click) = "changeSubject('Geography')">
-			<div class="geography-icon">
+			<div class="">
 				<i class="fa fa-globe fa-2x" aria-hidden="true"></i>
 			</div>	
 
 			Geography
 		</a>
 		<a class="subject" (click) = "changeSubject('History')">
-			<div class="icon">
-				<i class="fa fa-hourglass-end fa-1x" aria-hidden="true"></i>
+			<div class="">
+				<i class="fa fa-hourglass-end fa-2x" aria-hidden="true"></i>
 			</div>	
 			History
 		</a>
 	<!-- </div>
 	<div class="container"> -->
 		<a class="subject" (click) = "changeSubject('French')">
-			<div class="icon">
-				<img class="img_bag" src="http://www.freeiconspng.com/uploads/baguette-icon-12.png">
+			<div class="">
+				<img class="img" src="http://www.freeiconspng.com/uploads/baguette-icon-12.png">
 			</div>
-			French
+			<div class="text">French</div>
 		</a>
 		<a class="subject" (click) = "changeSubject('Spanish')">
-			<div class="bull_icon">
-				<img class="img_bull" src="https://d30y9cdsu7xlg0.cloudfront.net/png/120157-200.png">
+			<div class="">
+				<img class="" src="../../assets/bull.png">
 			</div>
-			Spanish
+			<div class="text">Spanish</div>
 		</a>
 		<a class="subject" (click) = "changeSubject('German')">
-			<div class="bull_icon">
-				<img class="img_bull" src="http://icons.iconarchive.com/icons/icons8/windows-8/512/Cultures-German-Hat-icon.png">
+			<div class="">
+				<img class="img" src="http://icons.iconarchive.com/icons/icons8/windows-8/512/Cultures-German-Hat-icon.png">
 			</div>
-			German
+			<div class="text">German</div>
 		</a>
 	<!-- </div>
 	<div class="container"> -->
 		<a class="subject" (click) = "changeSubject('Business')">
-			<div class="icon">
-				<i class="fa fa-briefcase fa-1x" aria-hidden="true"></i>
+			<div class="">
+				<img src="../../assets/briefcase.png"/>
 			</div>	
-			Business
+			<div class="text">Business</div>
 		</a>
 
 		<a class="subject" (click) = "changeSubject('Religion')">
-			<div class="bull_icon">
-				<img class="prayer-img" src="http://www.yslegal.com/wp-content/uploads/2015/07/religion.png">
+			<div class="">
+				<img class="" src="../assets/praying.png">
 			</div>
-			Religion
+			<div class="text">Religion</div>
 		</a>
 		<a class="subject" (click) = "changeSubject('CSPE')">
-			<div class="icon">
-				<i class="fa fa-balance-scale fa-1x" aria-hidden="true"></i>
-			</div>	
-			CSPE
+			<div class="">
+				<img src="../../assets/scales.png"/>
+			</div>
+			<div class="text">CSPE</div>
 		</a>
 	<!-- </div> -->
 </div>
