@@ -117,6 +117,1534 @@
       }
     ]
   },
+  "history" : {
+    "text" : "<h1>History Analysis</h1> <hr> <p>Here, the last 5 years of Higher Level History papers are divided into their separated categories. //n</p> <ul><li>Archaeologist <ul><li>Historian</li><li>Archaeologist</li></ul></li></ul",
+    "categories" : ["Archaeologist", "Ancient Ireland", "Ancient Rome", "The Middle Ages", "The Renaissance", "Age of Explorations",
+                    "Reformation", "The Plantations", "Revolutions", "Industrial Revolution", "International Relations 20th Century",
+                    "20th Century Ireland", "Social Development 20th Century"],
+    "hl": [
+      {
+        "year" : 2017,
+        "name" : "2017 - Q1 - A - Ancient Ireland(Neolithic Ireland)",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q1-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q1-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q1 - B - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q1-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q1-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q1 - C - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q1-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q1-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q2 - A - The Plantations",
+        "tags" : ["The Plantations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q2-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q2-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q2 - B - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q2-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q2-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - I - Archaeologist(Historian)",
+        "tags" : ["Archaeologist"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - II - Archaeologist",
+        "tags" : ["Archaeologist"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - III - Ancient Ireland(Bronze Age)",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - IV - Ancient Ireland(Early Christian Ireland)",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-D.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-D-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - V - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-E.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-E-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - VI - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-F.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-F-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - VII - Age of Explorations",
+        "tags" : ["Age of Explorations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-G.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-G-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - VIII - Age of Explorations",
+        "tags" : ["Age of Explorations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-H.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-H-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - IX - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-I.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-I-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - X - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-J.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-J-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - XI - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-K.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-K-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - XII - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-L.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-L-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - XIII - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-M.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-M-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - XIV - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-N.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-N-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - XV - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-O.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-O-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - XVI - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-P.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-P-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - XVII - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-Q.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-Q-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - XVIII - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-R.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-R-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - XIX - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-S.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-S-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q3 - XX - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-T.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q3-T-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q4 - A - People in History",
+        "tags" : ["People in History"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q4 - A - I - Ancient Rome",
+        "tags" : ["Ancient Rome"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-A-1.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-A-1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - A - II - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-A-2.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-A-2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - A - III - The Plantations",
+        "tags" : ["The Plantations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-A-3.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-A-3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q4 - B - People in History",
+        "tags" : ["People in History"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q4 - B - I - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-B-1.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-B-1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q4 - B - II - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-B-2.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-B-2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q4 - B - III - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-B-3.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q4-B-3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q5 - Reformation",
+        "tags" : ["Reformation"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q5.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q5-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q6 - A - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q6-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q6-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q6 - B - Social Change",
+        "tags" : ["Social Development 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q6-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q6-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q6 - C - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q6-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q6-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Q6 - D - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2017-Q6-D.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2017-Q6-D-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q1 - A - The Plantations",
+        "tags" : ["The Plantations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q1-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q1-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q1 - B - Revolutions",
+        "tags" : ["Revolutions"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q1-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q1-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q1 - C - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q1-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q1-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q2 - A - Reformation",
+        "tags" : ["Reformation"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q2-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q2-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q2 - B - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q2-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q2-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - I - Archaeologist",
+        "tags" : ["Archaeologist"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - II - Ancient Ireland(Mesolitihic)",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - III - Ancient Ireland(Neolithic)",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - IV - Ancient Ireland(Early Christian)",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-D.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-D-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - V - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-E.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-E-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - VI - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-F.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-F-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - VII - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-G.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-G-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - VIII - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-H.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-H-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - IX - Age of Explorations",
+        "tags" : ["Age of Explorations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-I.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-I-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - X - Revolutions",
+        "tags" : ["Revolutions"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-J.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-J-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - XI - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-K.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-K-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - XII - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-L.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-L-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - XIII - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-M.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-M-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - XIV - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-N.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-N-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - XV - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-O.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-O-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - XVI - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-P.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-P-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - XVII - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-Q.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-Q-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - XVIII - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-R.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-R-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - XIX - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-S.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-S-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q3 - XX - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-T.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q3-T-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q4 - A - People in History",
+        "tags" : ["People In History"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q4 - A - I - Ancient Ireland",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-A-1.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-A-1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q4 - A - II - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-A-2.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-A-2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q4 - A - III - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-A-3.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-A-3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q4 - B - People in History",
+        "tags" : ["People in History"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q4 - B - I - Age of Explorations",
+        "tags" : ["Age of Explorations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-B-1.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-B-1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q4 - B - II - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-B-2.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-B-2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q4 - B - III - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-B-3.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q4-B-3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q5 - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q5.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q5-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q6 - A - Reformation",
+        "tags" : ["Reformation"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q6-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q6-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q6 - B - Social Change",
+        "tags" : ["Social Development 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q6-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q6-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q6 - C - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q6-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q6-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Q6 - D - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2016-Q6-D.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2016-Q6-D-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q1 - A - Ancient Ireland(Early Christian)",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q1-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q1-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q1 - B - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q1-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q1-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q1 - C - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q1-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q1-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q2 - A - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q2-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q2-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q2 - B - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q2-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q2-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - I - Archaeologist(Historian)",
+        "tags" : ["Archaeologist"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - II - Ancient Rome",
+        "tags" : ["Ancient Rome"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - III - Ancient Ireland(Bronze Age)",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - IV - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-D.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-D-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - V - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-E.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-E-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2015 - Q3 - VI - Reformation",
+        "tags" : ["Reformation"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-F.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-F-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - VII - Reformation",
+        "tags" : ["Reformation"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-G.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-G-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - VIII - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-H.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-H-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - IX - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-I.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-I-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - X - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-J.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-J-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - XI - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-K.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-K-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - XII - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-L.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-L-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - XIII - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-M.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-M-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - XIV - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-N.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-N-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - XV - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-O.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-O-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - XVI - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-P.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-P-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - XVII - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-Q.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-Q-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - XVIII -International Relations 20th Centurys",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-R.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-R-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - XIX - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-S.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-S-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q3 - XX - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-T.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q3-T-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q4 - A - People in History",
+        "tags" : ["People in History"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q4 - A - I - Archaeologist",
+        "tags" : ["Archaeologist"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-A-1.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-A-1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q4 - A - II - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-A-2.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-A-2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q4 - A - III - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-A-3.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-A-3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q4 - B - People in History",
+        "tags" : ["People in History"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q4 - B - I - The Plantations",
+        "tags" : ["The Plantations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-B-1.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-B-1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q4 - B - II - Age of Revolutions",
+        "tags" : ["Age of Revolutions"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-B-2.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-B-2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q4 - B - III - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-B-3.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q4-B-3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q5 - Age of Explorations",
+        "tags" : ["Age of Explorations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q5.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q5-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q6 - A - Ancient Ireland",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q6-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q6-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q6 - B - Social Change",
+        "tags" : ["Social Development 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q6-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q6-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q6 - C - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q6-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q6-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Q6 - D - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2015-Q6-D.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2015-Q6-D-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q1 - A - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q1-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q1-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q1 - B - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q1-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q1-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q1 - C - Social Development 20th Century",
+        "tags" : ["Social Development 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q1-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q1-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q2 - A - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q2-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q2-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q2 - B - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q2-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q2-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - I - Archaeologist(Historian)",
+        "tags" : ["Archaeologist"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - II - Ancient Ireland(Early Christian)",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - III - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - IV - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-D.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-D-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - V - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-E.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-E-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - VI - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-F.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-F-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - VII - Reformation",
+        "tags" : ["Reformation"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-G.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-G-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - VIII - Reformation",
+        "tags" : ["Reformation"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-H.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-H-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - IX - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-I.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-I-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - X - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-J.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-J-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - XI - Plantations",
+        "tags" : ["Plantations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-K.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-K-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - XII - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-L.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-L-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - XIII - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-M.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-M-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - XIV - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-N.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-N-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - XV - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-O.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-O-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - XVI - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-P.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-P-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - XVII - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-Q.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-Q-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - XVIII - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-R.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-R-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - XIX - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-S.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-S-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q3 - XX - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-T.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q3-T-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q4 - A - People in History",
+        "tags" : ["People in History"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q4 - A - I - Ancient Rome",
+        "tags" : ["Ancient Rome"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-A-1.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-A-1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q4 - A - II - Ancient Ireland",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-A-2.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-A-2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q4 - A - III - The Plantations",
+        "tags" : ["The Plantations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-A-3.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-A-3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q4 - B - People in History",
+        "tags" : ["People in History"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q4 - B - I - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-B-1.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-B-1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q4 - B - II - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-B-2.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-B-2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q4 - B - III - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-B-3.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q4-B-3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q5 - Revolutions",
+        "tags" : ["Revolutions"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q5.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q5-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q6 - A - Age of Explorations",
+        "tags" : ["Age of Explorations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q6-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q6-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q6 - B - Social Change",
+        "tags" : ["Social Development 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q6-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q6-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q6 - C - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q6-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q6-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Q6 - D - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2014-Q6-D.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2014-Q6-D-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q1 - A - Archaeologist",
+        "tags" : ["Archaeologist"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q1-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q1-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q1 - B - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q1-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q1-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q1 - C - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q1-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q1-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q2 - A - Reformation",
+        "tags" : ["Reformation"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q2-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q2-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q2 - B - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q2-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q2-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - I - Archaeologist",
+        "tags" : ["Archaeologist"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - II - Ancient Ireland(Neolithic Ireland)",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - III - Ancient Ireland(Celts)",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - IV - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-D.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-D-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - V - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-E.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-E-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - VI - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-F.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-F-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - VII - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-G.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-G-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - VIII - The Renaissance",
+        "tags" : ["The Renaissance"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-H.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-H-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - IX - Revolutions",
+        "tags" : ["Revolutions"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-I.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-I-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - X - Revolutions",
+        "tags" : ["Revolutions"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-J.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-J-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - XI - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-K.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-K-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - XII - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-L.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-L-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - XIII - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-M.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-M-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - XIV - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-N.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-N-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - XV - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-O.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-O-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - XVI - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-P.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-P-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - XVII - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-Q.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-Q-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - XVIII - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-R.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-R-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - XIX - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-S.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-S-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q3 - XX - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-T.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q3-T-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q4 - A - People in History",
+        "tags" : ["People in History"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q4 - A - I - Ancient Ireland",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-A-1.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-A-1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q4 - A - II - The Middle Ages",
+        "tags" : ["The Middle Ages"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-A-2.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-A-2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013- Q4 - A - III - Reformation",
+        "tags" : ["Reformation"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-A-3.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-A-3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q4 - B - People in History",
+        "tags" : ["People in History"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q4 - B - I - Age of Explorations",
+        "tags" : ["Age of Explorations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-B-1.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-B-1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q4 - B - II - Industrial Revolution",
+        "tags" : ["Industrial Revolution"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-B-2.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-B-2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q4 - B - III - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-B-3.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q4-B-3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q5 - The Plantations",
+        "tags" : ["The Plantations"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q5.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q5-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q6 - A - Ancient Ireland",
+        "tags" : ["Ancient Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q6-A.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q6-A-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q6 - B - Social Change",
+        "tags" : ["Social Development 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q6-B.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q6-B-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q6 - C - 20th Century Ireland",
+        "tags" : ["20th Century Ireland"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q6-C.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q6-C-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Q6 - D - International Relations 20th Century",
+        "tags" : ["International Relations 20th Century"],
+        "src": "../../assets/ActualPapers/History/hl/screenshots/2013-Q6-D.png",
+        "ms": "../../assets/ActualPapers/History/hl/screenshots/2013-Q6-D-MS.png",
+        "difficulty": 1
+      }
+    ]
+  },
   "business":{
     "text": "<h1>Choosing the right category</h1> <h2>Paper 1</h2> <h3>Question 1</h3> Household Budgets <h3>Question 2</h3> Club Accounts <h3>Question 2</h3> Economics <h3>Question 4</h3>",
     "categories": ["Household Budgets", "Club Accounts", "Economics", "Insurance", "Consumer", "Report Writing", "Banking",
