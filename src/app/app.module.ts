@@ -1,5 +1,5 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
@@ -13,7 +13,6 @@ import { FormComponent } from './form/form.component';
 import { SubjectsComponent } from './subjects/subjects.component';
 import { PapersComponent } from './papers/papers.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ClickOutsideDirective } from './click-outside.directive';
 import { ExceptPipe } from './except.pipe';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { AnalysisComponent } from './analysis/analysis.component';
@@ -22,6 +21,8 @@ import { LoginComponent } from './login/login.component';
 import { CurrentUserService } from './current-user.service';
 import { FlashService } from './flash.service';
 import { AboutComponent } from './about/about.component';
+import { ClickOutsideDirective } from './click-outside.directive';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,16 +30,16 @@ import { AboutComponent } from './about/about.component';
     SubjectsComponent,
     PapersComponent,
     NavbarComponent,
-    ClickOutsideDirective,
     ExceptPipe,
     NotFoundComponent,
     AnalysisComponent,
     RegistrationComponent,
     LoginComponent,
-    AboutComponent
+    AboutComponent,
+    ClickOutsideDirective,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'junior-cert-papers'}),
     HttpClientModule,
     FormsModule,
     AppRoutingModule,

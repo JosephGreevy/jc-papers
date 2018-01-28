@@ -1,4 +1,4 @@
-const User = require("../models/user");
+const User = require("../models/user.js");
 const app = require("express")();
 const LocalStrategy = require("passport-local").Strategy;
 const FacebookStrategy = require("passport-facebook").Strategy;
@@ -27,7 +27,7 @@ module.exports = function(passport){
 				]
 			}, function(err, user){
 				if(err){
-					console.log(err);
+					console.log("Error while registering user", err);
 					return done(err);
 				}
 				if(user){
@@ -45,9 +45,8 @@ module.exports = function(passport){
 					newUser.local.password = createHash(password);
 					newUser.save(function(err){
 						if(err){
-							console.log(err);
-						} 
-						app.locals.message = "success";  
+							console.log("Error saving user to Database", err);
+						}  
 		                return done(null, newUser, { 
 		                	success : true,
 	                 		message : "Successfully registered and logged in."
@@ -67,8 +66,7 @@ module.exports = function(passport){
 			]
 		}, function(err, user){
 			if(err){
-				console.log("Looking at an error");
-				console.log(err);
+				console.log("Error while authenticating user", err);
 				return done(err);
 			}
 			if(!user){
@@ -92,6 +90,7 @@ module.exports = function(passport){
 	function(accessToken, refreshToken, profile, cb){
 		User.findOne({ 'facebook.id' : profile.id }, function(err, user){
 			if(err)
+				console.log("Error finding FB user", err);
 				return cb(err)
 
 			if(user){
@@ -104,7 +103,7 @@ module.exports = function(passport){
 				newUser.facebook.email    = profile.emails[0].value;
 				newUser.save(function(err){
 					if(err){
-						console.log(err);
+						console.log("Error saving FB user to database", err);
 						throw err;
 					}
 					console.log(newUser);   

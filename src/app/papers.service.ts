@@ -9,9 +9,7 @@ export class PapersService {
   constructor(private http: HttpClient) { }
 
   getData(){
-  	return this.http.get('../assets/papers.json').map(result =>{
-  		return result;
-  	});
+  	return this.http.get('../assets/papers.json');
   }
 
 }

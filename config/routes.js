@@ -2,7 +2,7 @@ const express    = require("express");
 const app        = express();
 const router     = express.Router();
 const passport   = require("passport");
-const User       = require("../models/user");
+const User       = require("../models/user.js");
 var isAuthenticated = function (req, res, next) {
 	// if user is authenticated in the session, call the next() to call the next request handler 
 	// Passport adds this method to request object. A middleware is allowed to add properties to
@@ -18,6 +18,7 @@ var isAuthenticated = function (req, res, next) {
 router.get("/api/current-user", function(req, res){
 	if (req.user === undefined) {
         // The user is not logged in
+        console.log("Returning empty object");
         res.json({});
     } else {
         res.json(req.user);
@@ -50,8 +51,7 @@ router.get('/auth/facebook/callback',
 
 router.get("/logout", function(req, res){
 	req.logout();
-	res.redirect("/");
-})
+});
 
 
 module.exports = router;
