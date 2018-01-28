@@ -67,7 +67,7 @@ export class NavbarComponent implements OnInit {
         }
       },
       (err) => {
-        console.log("Error when testing if user is logged in", err.message);
+        console.log("Error when testing if user is logged in", err);
       },
       () => {
         console.log("Authentication status has been confirmed");

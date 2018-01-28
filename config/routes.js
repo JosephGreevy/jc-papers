@@ -21,6 +21,7 @@ router.get("/api/current-user", function(req, res){
         console.log("Returning empty object");
         res.json({});
     } else {
+    	console.log("Returning current-user");
         res.json(req.user);
     }
 })
